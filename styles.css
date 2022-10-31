@@ -218,6 +218,10 @@ header nav ul, li, a:hover {
     margin-right: 10px;
 }
 
+.newsletter .container .message {
+    margin-top: 30px;
+}
+
 footer{
     background-color: #4A5568;
     color: white;
