@@ -147,6 +147,7 @@ header nav ul, li, a:hover {
 .stories .container {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 .stories .container h2, a {
@@ -166,6 +167,7 @@ header nav ul, li, a:hover {
     display: flex;
     align-items: center;
     padding-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .stories .container img {
