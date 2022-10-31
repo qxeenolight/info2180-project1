@@ -32,13 +32,13 @@ header nav ul, li {
     font-weight: bold;
 }
 
-header nav ul, li, a {
+header nav ul li a {
     text-decoration: none;
     color: #6b7280;
     padding-right: 5px;
 }
 
-header nav ul, li, a:hover {
+header nav ul li a:hover {
     color: #5A67D8;
 }
 
