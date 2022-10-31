@@ -1,11 +1,226 @@
 /* Add your CSS to this file */
 body {
     margin: 0;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 
 .container {
+    width: 100%;
     margin: 0 auto;
     max-width: 960px;
-    width: 100%;
+}
+
+/*HEADER*/
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+header h1 {
+    font-size: 18px;
+}
+
+header nav ul, li {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header nav ul, li, a {
+    text-decoration: none;
+    color: #6b7280;
+    padding-right: 5px;
+}
+
+header nav ul, li, a:hover {
+    color: #5A67D8;
+}
+
+/*HERO*/
+.overview-hero .container {
+    display: flex;
+    align-items: center;
+    background-color: #E2E8F0;
+    padding-left: 260px;
+    padding-right: 260px;
+}
+
+.overview-hero img{
+    width: 280px;
+    height: 280px;
+    padding-right: 100px;  
+    float: left;
+}
+
+.overview-hero-text {
+    padding-right: 10px;
+    float: right;
+}
+
+/*LEARN ABOUT*/
+.learn-about .container {
+    display: block;
+}
+
+.learn-about h2 {
+    font-size: 24px;
+    color: #48BB78;
+    margin-bottom: 35px;
+}
+
+.learn-about .container .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+}
+
+.card {
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px 0 grey;
+    margin-bottom: 35px;
+    padding: 15px;
+}
+
+.card img {
+    width: 270px;
+    height: 200px;
+    padding-left: 15px;
+}
+
+.card .card-body {
+    padding-left: 10px;
+}
+
+.card .card-body h3 {
+    color: #48BB78;
+    font-size: 21px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.card .card-body p {
+    margin-top: 7px;
+}
+       
+/*COVID TESTING*/
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 260px;
+    padding-right: 260px;
+    margin-bottom: 110px;
+}
+
+.testing .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testing-desciption {
+    float: left;
+    width: 62%;
+}
+
+.testing .container .cta .btn {
+    color: white;
+    background-color: #48BB78;
+    float: right;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 15px 25px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+/*RECENT STORIES*/
+.stories .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.stories .container h2, a {
+    color: #5A67D8;
+}
+
+.stories .container h3 {
+    font-size: 18px;
+    margin-right: 300px;
+}
+
+.stories .container p {
+    margin-right: 38px;
+}
+
+.stories .container article {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.stories .container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 50px;
+    margin-left: -10px;
+}
+
+/*NEWSLETTER*/
+
+.newsletter {
+    color: white;
+    background-color: #48BB78;
+}
+
+.newsletter .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 32%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.newsletter .container form {
+    display: flex;
+}
+
+.newsletter .container .btn {
+    color: white;
+    background-color: #5A67D8;
+    float: right;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 55px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.newsletter .container input {
+    border: none;
+    border-radius: 5px;
+    padding-bottom: 22px;
+    padding-top: 22px;
+    padding-right: 90px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+
+footer{
+    background-color: #4A5568;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px; 
 }
