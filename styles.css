@@ -152,6 +152,7 @@ header nav ul li a:hover {
 
 .stories .container h2, a {
     color: #5A67D8;
+    text-decoration: none;
 }
 
 .stories .container h3 {
